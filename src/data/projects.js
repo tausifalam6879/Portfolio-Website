@@ -1,7 +1,7 @@
 export const projects = [
   {
-    title: "Loan Verification System",
-    category: "Full Stack FinTech Project",
+    title: "Loan Verification and Expense Dashboard",
+    category: "Full-Stack Financial Dashboard",
     tech: [
       "React",
       "Spring Boot",
@@ -12,14 +12,16 @@ export const projects = [
       "Recharts",
     ],
     description:
-      "A loan verification platform with authentication, user/admin flows, expense tracking, loan application review, payment records, budget monitoring, transaction history, and charts.",
+      "A financial dashboard featuring user and admin workflows, loan application management, expense tracking, payment records, budget monitoring, transaction history, charts, and AI-assisted financial insights.",
+    note: "The hosted version provides a frontend demo, while the repository contains the complete Spring Boot backend implementation.",
     github: "https://github.com/tausifalam6879/Loan_Verification_System",
     demo: "https://tausifalam6879.github.io/Loan_Verification_System",
+    demoLabel: "Live Frontend Demo",
     featured: true,
   },
   {
     title: "SkyLink - Full-Stack Airline Booking Platform",
-    category: "Full Stack Travel Platform",
+    category: "Full-Stack Travel Platform",
     tech: [
       "React 19",
       "Vite",
@@ -31,19 +33,40 @@ export const projects = [
       "GitHub Actions",
     ],
     description:
-      "A flight booking and travel management platform with flight search, fare comparison, seat selection, booking creation, booking history, cancellation, offers, and flight-status tracking.",
+      "A flight-booking and travel-management platform featuring flight search, fare comparison, seat selection, booking creation, booking history, cancellation, offers, trip planning, and flight-status tracking.",
+    note: "The hosted version demonstrates frontend and sample booking flows, while the repository contains the Spring Boot and MySQL backend implementation.",
     github: "https://github.com/tausifalam6879/SkyLink",
     demo: "https://tausifalam6879.github.io/SkyLink/",
+    demoLabel: "Live Frontend Demo",
     featured: true,
   },
   {
-    title: "Student Form & Notification Portal",
+    title: "Personal Portfolio Website",
+    category: "Frontend Project",
+    tech: [
+      "React",
+      "Vite",
+      "Material UI",
+      "Framer Motion",
+      "React Scroll",
+      "GitHub Pages",
+    ],
+    description:
+      "A responsive personal portfolio website created to present my education, technical skills, software projects, resume, GitHub profile, LinkedIn profile, and contact information.",
+    github: "https://github.com/tausifalam6879/Portfolio-Website",
+    demo: "https://tausifalam6879.github.io/Portfolio-Website/",
+    demoLabel: "Live Demo",
+    featured: false,
+  },
+  {
+    title: "Student Form and Notification Portal",
     category: "Web Application",
     tech: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
     description:
-      "A student portal with registration, login, form submission, notification management, MySQL-backed records, and an admin dashboard for submitted data.",
+      "An academic web application featuring student registration, login, form submission, notification management, MySQL-backed records, and an admin dashboard for managing submitted data.",
     github: "https://github.com/tausifalam6879/student-form-portal",
     demo: "",
+    demoLabel: "Frontend Preview",
     featured: false,
   },
 ];

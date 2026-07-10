@@ -25,13 +25,11 @@ const Hero = () => {
 
         <TypeAnimation
           sequence={[
-            "Java Full Stack Developer",
+            "Aspiring Java Full-Stack Developer",
             2000,
-            "Spring Boot Developer",
+            "Java Developer",
             2000,
-            "React Developer",
-            2000,
-            "Full Stack Project Builder",
+            "MCA Student",
             2000,
           ]}
           wrapper="div"
@@ -48,8 +46,10 @@ const Hero = () => {
         />
 
         <p className="hero-description">
-          MCA student at NIT Raipur focused on Java, Spring Boot, React, REST
-          APIs, MySQL, JWT authentication, and practical full-stack projects.
+          MCA student at NIT Raipur with hands-on experience in Java, Spring
+          Boot, REST APIs, MySQL, and full-stack web development. Currently
+          strengthening my skills in React, Spring Security, and JWT-based
+          authentication through practical projects.
         </p>
 
         <div
@@ -65,7 +65,7 @@ const Hero = () => {
             className="social-button"
             href={profile.github}
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             aria-label="GitHub profile"
             title="GitHub"
           >
@@ -76,7 +76,7 @@ const Hero = () => {
             className="social-button"
             href={profile.linkedin}
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             aria-label="LinkedIn profile"
             title="LinkedIn"
           >
@@ -95,7 +95,7 @@ const Hero = () => {
             duration={500}
             offset={-72}
           >
-            Hire Me
+            Contact Me
             <FaArrowRight />
           </Link>
         </div>

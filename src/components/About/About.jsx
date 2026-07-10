@@ -6,17 +6,17 @@ const aboutCards = [
   {
     icon: <FaGraduationCap />,
     title: "Education",
-    text: "MCA student at NIT Raipur. Current CPI: 7.72/10. B.Sc. Mathematics graduate with CGPA 9.29/10.",
+    text: "MCA student at NIT Raipur with a current CPI of 7.72/10. B.Sc. Mathematics graduate with a CGPA of 9.29/10.",
   },
   {
     icon: <FaCode />,
     title: "Developer",
-    text: "Working with Java, Spring Boot, React, MySQL, REST APIs, JWT authentication, and JPA/Hibernate.",
+    text: "Working primarily with Java, Spring Boot, REST APIs, MySQL, and JPA/Hibernate while developing practical skills in React, Spring Security, and JWT authentication.",
   },
   {
     icon: <FaTools />,
     title: "Project Focus",
-    text: "Building practical projects around authentication, dashboards, forms, database records, deployment, and clean UI flows.",
+    text: "Building practical projects involving authentication, REST APIs, database integration, dashboards, forms, deployment workflows, and clean user-interface flows.",
   },
 ];
 
@@ -36,11 +36,13 @@ const About = () => {
         </h2>
 
         <p className="section-lead">
-          I am Tausif Alam, an MCA student at NIT Raipur. My current focus is
-          full-stack development with Java, Spring Boot, React, REST APIs, MySQL,
-          and authentication-based web applications. I have built portfolio
-          projects around loan verification, flight booking, student portals,
-          dashboard UI, and frontend deployment workflows.
+          I am Tausif Alam, an MCA student at NIT Raipur with a strong interest
+          in Java and full-stack web development. I have hands-on experience
+          with Java, Spring Boot, REST APIs, MySQL, and database-driven
+          applications, along with basic experience in React, Spring Security,
+          and JWT authentication. My projects include a flight-booking platform,
+          a financial dashboard, a student portal, and this personal portfolio
+          website.
         </p>
 
         <div className="about-grid">

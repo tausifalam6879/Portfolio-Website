@@ -12,8 +12,9 @@ export default function Projects() {
         <p className="section-kicker">Projects</p>
         <h2 className="section-title">Selected full-stack work.</h2>
         <p className="section-lead">
-          Enterprise-style Java projects, real-time systems, React interfaces,
-          and portfolio-grade frontend work.
+          Selected academic and personal projects demonstrating backend
+          development, REST API integration, databases, authentication, and
+          frontend implementation.
         </p>
 
         <div className="projects-grid">
@@ -38,6 +39,7 @@ export default function Projects() {
 
               <h3>{project.title}</h3>
               <p>{project.description}</p>
+              {project.note && <p className="project-note">{project.note}</p>}
 
               <div className="tech-stack">
                 {project.tech.map((tech) => (
@@ -50,7 +52,7 @@ export default function Projects() {
                   className="small-button"
                   href={project.github}
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <FaGithub />
                   GitHub
@@ -61,10 +63,10 @@ export default function Projects() {
                     className="small-button ghost"
                     href={project.demo}
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                   >
                     <FaExternalLinkAlt />
-                    Live Demo
+                    {project.demoLabel || "Live Demo"}
                   </a>
                 ) : (
                   <span className="small-button muted-button">No Live Demo</span>
@@ -83,7 +85,7 @@ export default function Projects() {
         >
           <div>
             <p className="section-kicker">GitHub Stats</p>
-            <h3>Open-source activity and project work</h3>
+            <h3>GitHub Activity and Project Work</h3>
           </div>
           <img
             src={`https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&theme=tokyonight&hide_border=true`}

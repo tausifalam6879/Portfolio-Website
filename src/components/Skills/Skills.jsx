@@ -6,10 +6,11 @@ const Skills = () => {
     <section id="skills" className="skills section-shell section-alt">
       <div className="section-content">
         <p className="section-kicker">Skills</p>
-        <h2 className="section-title">Technologies I use to build.</h2>
+        <h2 className="section-title">My current technical skills and tools.</h2>
         <p className="section-lead">
-          A focused, honest stack for Java full-stack development, frontend
-          work, databases, tooling, and core computer science fundamentals.
+          A focused collection of programming languages, development
+          technologies, tools, and core computer science subjects used in my
+          academic and personal projects.
         </p>
 
         <div className="skills-grid">

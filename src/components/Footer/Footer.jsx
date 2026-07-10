@@ -7,17 +7,25 @@ const Footer = () => {
     <footer className="footer">
       <div>
         <h2>{profile.name}</h2>
-        <p>Java Full Stack Developer focused on clean, scalable web apps.</p>
+        <p>
+          MCA student building practical web applications with Java, Spring
+          Boot, React, and MySQL.
+        </p>
       </div>
 
       <div className="footer-socials">
-        <a href={profile.github} target="_blank" rel="noreferrer" aria-label="GitHub">
+        <a
+          href={profile.github}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub"
+        >
           <FaGithub />
         </a>
         <a
           href={profile.linkedin}
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
           aria-label="LinkedIn"
         >
           <FaLinkedin />

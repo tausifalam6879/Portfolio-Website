@@ -373,6 +373,16 @@ img {
   line-height: 1.75;
 }
 
+.project-note {
+  margin-top: 14px;
+  padding: 12px 14px;
+  color: var(--muted);
+  background: rgba(0, 247, 255, 0.06);
+  border: 1px solid rgba(0, 247, 255, 0.14);
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
 .about-resume {
   margin-top: 34px;
 }

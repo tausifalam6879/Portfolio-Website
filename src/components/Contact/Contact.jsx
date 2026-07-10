@@ -20,8 +20,8 @@ const Contact = () => {
           <p className="section-kicker">Contact</p>
           <h2 className="section-title">Let us build something useful.</h2>
           <p className="section-lead">
-            I am open to Java Full Stack Developer roles, MCA placement
-            opportunities, internships, and project collaborations.
+            I am open to entry-level software development roles, Java full-stack
+            opportunities, internships, and meaningful project collaborations.
           </p>
 
           <div className="contact-list">
@@ -29,11 +29,11 @@ const Contact = () => {
               <FaEnvelope />
               {profile.email}
             </a>
-            <a href={profile.github} target="_blank" rel="noreferrer">
+            <a href={profile.github} target="_blank" rel="noopener noreferrer">
               <FaGithub />
               GitHub
             </a>
-            <a href={profile.linkedin} target="_blank" rel="noreferrer">
+            <a href={profile.linkedin} target="_blank" rel="noopener noreferrer">
               <FaLinkedin />
               LinkedIn
             </a>
