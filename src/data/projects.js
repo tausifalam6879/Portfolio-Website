@@ -59,11 +59,11 @@ export const projects = [
     featured: false,
   },
   {
-    title: "AI Learning & Dataset Submission Portal",
-    category: "AI/Data Science Themed Frontend",
+    title: "CampusConnect - Central Opportunity Portal",
+    category: "College Placement & Hackathon Portal",
     tech: ["HTML", "CSS", "JavaScript", "MySQL Schema", "Bootstrap"],
     description:
-      "A lightweight portal for AI/ML workshop registrations, dataset idea submission, mini-project proposals, and learning feedback. It uses localStorage for the live frontend demo and includes a MySQL schema for future database integration.",
+      "A central college portal for placement drives, internship updates, hackathons, eligible departments, deadlines, and student interest tracking so opportunities do not get missed across department WhatsApp groups.",
     github: "https://github.com/tausifalam6879/student-form-portal",
     demo: "https://tausifalam6879.github.io/student-form-portal/",
     demoLabel: "Live Demo",
