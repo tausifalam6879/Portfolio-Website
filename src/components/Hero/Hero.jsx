@@ -19,17 +19,20 @@ const Hero = () => {
         <h3 className="hero-greeting">Hello, It's Me</h3>
 
         <h1 className="hero-title">
-          <span>{profile.name.split(" ")[0]} </span>
-          <span>{profile.name.split(" ")[1]}</span>
+          <span>{profile.name}</span>
         </h1>
 
         <TypeAnimation
           sequence={[
-            "Aspiring Java Full-Stack Developer",
+            "Java Full-Stack Developer",
             2000,
-            "Java Developer",
+            "Spring Boot REST API Developer",
             2000,
-            "MCA Student",
+            "React Frontend Developer",
+            2000,
+            "MySQL Database Projects",
+            2000,
+            "AI Recommendation Demo Builder",
             2000,
           ]}
           wrapper="div"

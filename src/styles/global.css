@@ -127,8 +127,7 @@ img {
 }
 
 .nav-logo span,
-.section-kicker,
-.hero-title span:last-child {
+.section-kicker {
   color: var(--accent);
 }
 
