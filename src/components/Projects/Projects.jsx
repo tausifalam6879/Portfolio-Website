@@ -4,8 +4,6 @@ import { projects } from "../../data/projects";
 import { profile } from "../../styles/theme";
 
 export default function Projects() {
-  const username = profile.github.split("/").pop();
-
   return (
     <section id="projects" className="projects section-shell">
       <div className="section-content">
@@ -86,12 +84,31 @@ export default function Projects() {
           <div>
             <p className="section-kicker">GitHub Stats</p>
             <h3>GitHub Activity and Project Work</h3>
+            <p>
+              Explore my GitHub profile for source code, project updates, and
+              repositories connected with the portfolio work shown above.
+            </p>
           </div>
-          <img
-            src={`https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&theme=tokyonight&hide_border=true`}
-            alt="Tausif Alam GitHub stats"
-            loading="lazy"
-          />
+          <div className="github-stats-actions">
+            <a
+              className="small-button"
+              href={profile.github}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub />
+              GitHub Profile
+            </a>
+            <a
+              className="small-button ghost"
+              href="https://github.com/tausifalam6879?tab=repositories"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaExternalLinkAlt />
+              View Repositories
+            </a>
+          </div>
         </motion.div>
       </div>
     </section>

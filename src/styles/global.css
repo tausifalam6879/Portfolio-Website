@@ -497,9 +497,16 @@ img {
   align-items: center;
 }
 
-.github-stats img {
-  width: 100%;
-  border-radius: 8px;
+.github-stats p {
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.github-stats-actions {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 12px;
 }
 
 .contact-layout {
@@ -690,6 +697,10 @@ img {
   .github-stats {
     display: grid;
     grid-template-columns: 1fr;
+  }
+
+  .github-stats-actions {
+    justify-content: flex-start;
   }
 
   .footer {
