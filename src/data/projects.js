@@ -59,14 +59,14 @@ export const projects = [
     featured: false,
   },
   {
-    title: "Student Form and Notification Portal",
-    category: "Web Application",
-    tech: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+    title: "AI Learning & Dataset Submission Portal",
+    category: "AI/Data Science Themed Frontend",
+    tech: ["HTML", "CSS", "JavaScript", "MySQL Schema", "Bootstrap"],
     description:
-      "An academic web application featuring student registration, login, form submission, notification management, MySQL-backed records, and an admin dashboard for managing submitted data.",
+      "A lightweight portal for AI/ML workshop registrations, dataset idea submission, mini-project proposals, and learning feedback. It uses localStorage for the live frontend demo and includes a MySQL schema for future database integration.",
     github: "https://github.com/tausifalam6879/student-form-portal",
-    demo: "",
-    demoLabel: "Frontend Preview",
+    demo: "https://tausifalam6879.github.io/student-form-portal/",
+    demoLabel: "Live Demo",
     featured: false,
   },
 ];
