@@ -13,7 +13,6 @@ export const projects = [
     ],
     description:
       "A financial dashboard featuring user and admin workflows, loan application management, expense tracking, payment records, budget monitoring, transaction history, charts, and AI-assisted financial insights.",
-    note: "The hosted version provides a frontend demo, while the repository contains the complete Spring Boot backend implementation.",
     github: "https://github.com/tausifalam6879/Loan_Verification_System",
     demo: "https://tausifalam6879.github.io/Loan_Verification_System",
     demoLabel: "Live Frontend Demo",
@@ -34,7 +33,6 @@ export const projects = [
     ],
     description:
       "A flight-booking and travel-management platform featuring flight search, fare comparison, seat selection, booking creation, booking history, cancellation, offers, trip planning, and flight-status tracking.",
-    note: "The hosted version demonstrates frontend and sample booking flows, while the repository contains the Spring Boot and MySQL backend implementation.",
     github: "https://github.com/tausifalam6879/SkyLink",
     demo: "https://tausifalam6879.github.io/SkyLink/",
     demoLabel: "Live Frontend Demo",

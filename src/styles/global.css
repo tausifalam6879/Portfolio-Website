@@ -333,7 +333,7 @@ img {
 .skills-grid,
 .projects-grid {
   display: grid;
-  gap: 24px;
+  gap: 20px;
 }
 
 .about-grid {
@@ -344,7 +344,7 @@ img {
 .skill-card,
 .project-card,
 .contact-form {
-  padding: 28px;
+  padding: 22px;
 }
 
 .card-icon {
@@ -369,7 +369,7 @@ img {
 .about-card p,
 .project-card p {
   color: var(--muted);
-  line-height: 1.75;
+  line-height: 1.55;
 }
 
 .project-note {
@@ -410,7 +410,7 @@ img {
 }
 
 .projects-grid {
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 
 .project-card {
@@ -443,8 +443,8 @@ img {
 .tech-stack {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  margin: 22px 0;
+  gap: 8px;
+  margin: 16px 0;
 }
 
 .tech-stack span {
@@ -461,7 +461,13 @@ img {
   margin-top: auto;
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 10px;
+}
+
+.project-actions .small-button {
+  min-height: 40px;
+  padding: 8px 14px;
+  font-size: 0.86rem;
 }
 
 .small-button {
