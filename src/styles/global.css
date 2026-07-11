@@ -66,29 +66,22 @@ img {
 .navbar-shell {
   position: fixed;
   z-index: 1000;
-  top: 18px;
-  left: 8%;
-  right: 8%;
-  transition:
-    top 0.35s ease,
-    left 0.35s ease,
-    right 0.35s ease,
-    filter 0.35s ease;
+  top: 16px;
+  left: 50%;
+  width: min(1120px, calc(100% - 48px));
+  transform: translateX(-50%);
+  transition: filter 0.25s ease;
+  will-change: filter;
 }
 
 .navbar-shell.scrolled {
-  top: 12px;
-  left: 50%;
-  right: auto;
-  width: min(860px, calc(100% - 32px));
-  transform: translateX(-50%);
   filter: drop-shadow(0 18px 50px rgba(0, 0, 0, 0.28));
 }
 
 .navbar {
   width: 100%;
-  min-height: 78px;
-  padding: 14px 32px;
+  min-height: 68px;
+  padding: 10px 28px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -98,15 +91,11 @@ img {
   backdrop-filter: blur(18px);
   box-shadow: 0 16px 60px rgba(0, 0, 0, 0.22);
   transition:
-    min-height 0.35s ease,
-    padding 0.35s ease,
     background 0.35s ease,
     border-color 0.35s ease;
 }
 
 .navbar-shell.scrolled .navbar {
-  min-height: 64px;
-  padding: 10px 22px;
   background: rgba(6, 17, 31, 0.88);
   border-color: rgba(0, 247, 255, 0.35);
 }
@@ -135,11 +124,6 @@ img {
   display: flex;
   align-items: center;
   gap: 28px;
-  transition: gap 0.35s ease;
-}
-
-.navbar-shell.scrolled .nav-links {
-  gap: 22px;
 }
 
 .nav-link {
