@@ -1,38 +1,21 @@
 export const projects = [
   {
-    title: "Loan Verification and Expense Dashboard",
-    category: "Full-Stack Financial Dashboard",
-    tech: [
-      "React",
-      "Spring Boot",
-      "Java",
-      "Spring Security",
-      "JWT",
-      "H2/MySQL",
-      "Recharts",
-    ],
+    title: "Loan Verification System",
+    category: "Java Web Project",
+    tech: ["React", "Spring Boot", "Java"],
     description:
-      "A financial dashboard featuring user and admin workflows, loan application management, expense tracking, payment records, budget monitoring, transaction history, charts, and AI-assisted financial insights.",
+      "A loan verification project with user and admin workflows, loan application management, document checking, and application status tracking.",
     github: "https://github.com/tausifalam6879/Loan_Verification_System",
     demo: "https://tausifalam6879.github.io/Loan_Verification_System",
     demoLabel: "Live Frontend Demo",
     featured: true,
   },
   {
-    title: "SkyLink - Full-Stack Airline Booking Platform",
-    category: "Full-Stack Travel Platform",
-    tech: [
-      "React 19",
-      "Vite",
-      "Java",
-      "Spring Boot 3.5",
-      "MySQL",
-      "JWT",
-      "JPA/Hibernate",
-      "GitHub Actions",
-    ],
+    title: "SkyLink - Airline Booking Platform",
+    category: "Java Web Project",
+    tech: ["React", "Vite", "Java", "Spring Boot"],
     description:
-      "A flight-booking and travel-management platform featuring flight search, fare comparison, seat selection, booking creation, booking history, cancellation, offers, trip planning, and flight-status tracking.",
+      "An airline booking project with flight search, booking flow, booking history, cancellation, offers, and flight status screens.",
     github: "https://github.com/tausifalam6879/SkyLink",
     demo: "https://tausifalam6879.github.io/SkyLink/",
     demoLabel: "Live Frontend Demo",
@@ -59,9 +42,9 @@ export const projects = [
   {
     title: "CampusConnect - Central Opportunity Portal",
     category: "College Placement & Hackathon Portal",
-    tech: ["HTML", "CSS", "JavaScript", "MySQL Schema", "Bootstrap"],
+    tech: ["HTML", "CSS", "JavaScript"],
     description:
-      "A CSV-driven central college portal for placement drives, internship updates, hackathons, eligible departments, deadlines, student interest tracking, official website redirects, and AI-style recommendation logic.",
+      "A central college portal for placement drives, internship updates, hackathons, eligible departments, deadlines, student interest tracking, and official website redirects.",
     github: "https://github.com/tausifalam6879/student-form-portal",
     demo: "https://tausifalam6879.github.io/student-form-portal/",
     demoLabel: "Live Demo",

@@ -24,15 +24,7 @@ const Hero = () => {
 
         <TypeAnimation
           sequence={[
-            "Java Full-Stack Developer",
-            2000,
-            "Spring Boot REST API Developer",
-            2000,
-            "React Frontend Developer",
-            2000,
-            "MySQL Database Projects",
-            2000,
-            "AI Recommendation Demo Builder",
+            "Java Developer",
             2000,
           ]}
           wrapper="div"
@@ -49,10 +41,9 @@ const Hero = () => {
         />
 
         <p className="hero-description">
-          MCA student at NIT Raipur with hands-on experience in Java, Spring
-          Boot, REST APIs, MySQL, and full-stack web development. Currently
-          strengthening my skills in React, Spring Security, and JWT-based
-          authentication through practical projects.
+          MCA student at NIT Raipur with a strong interest in Java and software
+          development. I am building practical projects, improving my core
+          computer science fundamentals, and preparing for Java developer roles.
         </p>
 
         <div

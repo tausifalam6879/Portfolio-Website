@@ -1,6 +1,6 @@
 export const profile = {
   name: "Tausif Alam",
-  role: "Java Full-Stack Developer",
+  role: "Java Developer",
   email: "tausifalam6879@gmail.com",
   location: "Raipur, Chhattisgarh",
   github: "https://github.com/tausifalam6879",

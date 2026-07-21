@@ -1,30 +1,11 @@
 export const skillCategories = [
   {
     category: "Programming Languages",
-    skills: ["Java", "C", "C++", "Python", "JavaScript", "SQL"],
+    skills: ["Java", "C++", "Python"],
   },
   {
     category: "Web Technologies",
     skills: ["HTML", "CSS", "React - Basic"],
-  },
-  {
-    category: "Backend Development",
-    skills: ["Spring Boot", "REST APIs", "Spring Data JPA", "Hibernate", "Maven"],
-  },
-  {
-    category: "Basic Familiarity",
-    skills: [
-      "Spring Security",
-      "JWT Authentication",
-      "H2 Database",
-      "Ollama",
-      "Gemini API",
-      "OpenAI API Integration",
-    ],
-  },
-  {
-    category: "Database and Tools",
-    skills: ["MySQL", "Git", "GitHub", "npm", "IntelliJ IDEA", "Postman"],
   },
   {
     category: "Core Computer Science",
