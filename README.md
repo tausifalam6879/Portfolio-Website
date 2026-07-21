@@ -1,16 +1,63 @@
-# React + Vite
+# Tausif Alam Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern personal portfolio website built to present my education, technical skills, projects, resume, GitHub profile, LinkedIn profile, and contact information.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[Open Portfolio Live Demo](https://tausifalam6879.github.io/Portfolio-Website/)
 
-## React Compiler
+## GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+[View Source Code](https://github.com/tausifalam6879/Portfolio-Website)
 
-## Expanding the ESLint configuration
+## About
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This portfolio is created for MCA placement preparation and Java developer opportunities. It highlights my academic background, selected projects, resume, and contact details in a clean and responsive web interface.
+
+## Features
+
+- Responsive portfolio layout
+- Dark and light theme support
+- Animated hero section
+- Smooth scrolling navigation
+- Project showcase with GitHub and live demo links
+- Resume download button
+- Contact section
+- Professional footer
+
+## Tech Stack
+
+- React
+- Vite
+- JavaScript
+- CSS
+- Framer Motion
+- React Icons
+- React Scroll
+- React Type Animation
+
+## Projects Included
+
+- Loan Verification System
+- SkyLink - Airline Booking Platform
+- CampusConnect - Central Opportunity Portal
+- Personal Portfolio Website
+
+## Run Locally
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+## Contact
+
+- GitHub: [tausifalam6879](https://github.com/tausifalam6879)
+- LinkedIn: [Tausif Alam](https://www.linkedin.com/in/tausif-mca)
+- Email: tausifalam6879@gmail.com
