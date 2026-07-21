@@ -10,13 +10,13 @@ const aboutCards = [
   },
   {
     icon: <FaCode />,
-    title: "Developer",
-    text: "Working primarily with Java, Spring Boot, REST APIs, MySQL, and JPA/Hibernate while developing practical skills in React, Spring Security, and JWT authentication.",
+    title: "Current Skills",
+    text: "Java, Spring Boot, and MySQL.",
   },
   {
     icon: <FaTools />,
-    title: "Project Focus",
-    text: "Building practical projects involving authentication, REST APIs, database integration, dashboards, forms, deployment workflows, and clean user-interface flows.",
+    title: "Currently Learning",
+    text: "React, Spring Security, JWT authentication, and application deployment.",
   },
 ];
 
@@ -32,17 +32,12 @@ const About = () => {
       >
         <p className="section-kicker">About Me</p>
         <h2 className="section-title">
-          Building practical software with a full-stack mindset.
+          MCA student focused on Java and web development.
         </h2>
 
         <p className="section-lead">
-          I am Tausif Alam, an MCA student at NIT Raipur with a strong interest
-          in Java and full-stack web development. I have hands-on experience
-          with Java, Spring Boot, REST APIs, MySQL, and database-driven
-          applications, along with basic experience in React, Spring Security,
-          and JWT authentication. My projects include a flight-booking platform,
-          a financial dashboard, a student portal, and this personal portfolio
-          website.
+          I am Tausif Alam, an MCA student at NIT Raipur. I work with Java,
+          Spring Boot, and MySQL in my projects.
         </p>
 
         <div className="about-grid">

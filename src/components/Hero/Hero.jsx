@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import { FaArrowRight, FaDownload, FaGithub, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-scroll";
-import hero from "../../assets/images/hero.jpeg";
 import resumeFile from "../../assets/resume/Tausif_Alam_Resume.pdf";
 import { profile } from "../../styles/theme";
 
@@ -41,9 +40,8 @@ const Hero = () => {
         />
 
         <p className="hero-description">
-          MCA student at NIT Raipur with a strong interest in Java and software
-          development. I am building practical projects, improving my core
-          computer science fundamentals, and preparing for Java developer roles.
+          MCA student at NIT Raipur. I work with Java, Spring Boot, databases,
+          REST APIs, and web development.
         </p>
 
         <div
@@ -95,26 +93,6 @@ const Hero = () => {
         </div>
       </motion.div>
 
-      <motion.div
-        className="hero-visual"
-        initial={{ x: 100, opacity: 0 }}
-        animate={{ x: 0, opacity: 1 }}
-        transition={{ duration: 0.8 }}
-      >
-        <motion.img
-          className="hero-image"
-          src={hero}
-          alt="Tausif Alam"
-          animate={{
-            y: [0, -15, 0],
-          }}
-          transition={{
-            duration: 4,
-            repeat: Infinity,
-            ease: "easeInOut",
-          }}
-        />
-      </motion.div>
     </section>
   );
 };
